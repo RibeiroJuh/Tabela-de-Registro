@@ -1,0 +1,7 @@
+CREATE TABLE Calculadora (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    num1 FLOAT NOT NULL,
+    num2 FLOAT NOT NULL,
+    operacao CHAR(1) NOT NULL,
+    resultado FLOAT NOT NULL
+);
